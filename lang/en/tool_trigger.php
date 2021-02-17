@@ -48,6 +48,7 @@ $string['cli_filefail'] = 'Failed to write file: {$a}';
 $string['cli_filesummary'] = 'File written to: {$a}';
 $string['cli_writingfile'] = 'Writing {$a} event field definitions to file...';
 $string['cohortidfield'] = 'Cohort ID';
+$string['conversion'] = 'Conversion';
 $string['core'] = 'Core';
 $string['deleterule'] = 'Delete rule';
 $string['deletestep'] = 'Delete step';
@@ -202,6 +203,14 @@ $string['step_lookup_category_name'] = 'Category lookup';
 $string['step_lookup_category_categoryidfield'] = 'Category id data field';
 $string['categoryidfield'] = 'Category id data field';
 $string['categoryidfield_help'] = 'You can use category id as a number or as a filed name from the workflow data';
+
+$string['step_convert_date_name'] = 'Date conversion';
+$string['step_convert_date_desc'] = 'This step converts a timestamp based field to a readable date';
+$string['date_conversion_convert'] = 'Convert';
+$string['datefield'] = 'Date field';
+$string['dateformat'] = 'Date format';
+$string['usecustomformat'] = 'Use custom date format';
+
 $string['step_lookup_user:privacy:userdata_desc'] = 'Personal data about users, such as usernames, names, email addresses, etc.';
 $string['step_lookup_user_desc'] = 'This step looks up data about a user.';
 $string['step_lookup_user_nodeleted'] = 'Exit if user has been deleted?';

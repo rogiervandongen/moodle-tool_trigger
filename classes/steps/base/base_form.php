@@ -167,6 +167,7 @@ class base_form extends \moodleform {
             'lookups' => get_string('lookup', 'tool_trigger'),
             'filters' => get_string('filter', 'tool_trigger'),
             'actions' => get_string('action', 'tool_trigger'),
+            'conversions' => get_string('conversion', 'tool_trigger'),
         );
         $mform->addElement('select', 'type', get_string('steptype', 'tool_trigger'), $steptype);
         $mform->addHelpButton('type', 'steptype', 'tool_trigger');

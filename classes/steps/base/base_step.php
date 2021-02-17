@@ -82,6 +82,11 @@ abstract class base_step {
     const STEPTYPE_FILTER = 'filters';
 
     /**
+     * @var string
+     */
+    const STEPTYPE_CONVERSION = 'conversions';
+
+    /**
      * Returns which type of step it is. This must match be "actions", "lookups", or "filters",
      * and the way its' currently implemented, it must also match the classes's namespace and the directory it's in.
      *
